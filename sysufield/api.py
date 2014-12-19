@@ -26,7 +26,7 @@ def get_opener():
     opener.open(req_2)
 
     #握手后可以进行NetID登陆
-    req_3 = pm.req_login(jid, lt, 'zhengyw5', 'Trpo3aces', cookie)
+    req_3 = pm.req_login(jid, lt, 'zheng', 'Trps', cookie)
     result_3 = opener.open(req_3)
 
     print result_3.read()
