@@ -42,6 +42,6 @@ class Field:
 
 
 
-zyw = Field('12330423', '08236135')
+zyw = Field('12330423', '11111111')
 userinfo = zyw.get_userinfo()
 print userinfo
